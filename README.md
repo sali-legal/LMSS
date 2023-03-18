@@ -14,14 +14,16 @@ This `LMSS.owl` file will be updated regularly.
 - But please note that until a formal Release (e.g., Version 3.0, Version 4.0), the commits are still subject to public review. 
 - The `LMSS.owl` will become final upon its Release. 
 - Even during the interim stages (i.e., `main` branch, `develop` branch), changes to the IRIs will be unlikely. 
--- The only *deprecation* of IRIs will likely be related to consolidation/de-duplication -- during the Public Comment stage. 
+- Rarely, IRIs may be *deprecated* -- and then, most likely be related to consolidation/de-duplication (e.g., during the Public Comment stage). 
+    - SALI will strive to retain deprecated IRIs -- placing them in a folder labeled `DEPRECATED NODES`. 
 
 After a Release, nearly all of the IRIs will remain operative for decades (or forever). Future changes (if any) are likely to be only with properties:
 - E.g., Labels (i.e., `rdfs:label`)
 - E.g., Synonyms (i.e., `skos:altLabel`) - such as translations to other languages
-- E.g., Definitions
-- E.g., Edges/relationships
-- E.g., Multiple Parentage
+- E.g., Definitions (e.g., `skos:definition`) 
+- E.g., Sources (e.g., `rdfs:isDefinedBy`)
+- E.g., Edges/relationships (e.g., `rdfs:seeAlso`, `sali:governedBy`)
+- E.g., Multiple Parentage (e.g., additional `rdfs:subClassOf` parents)
 
 The identifiers/IRIs themselves will remain static and stable.
 
