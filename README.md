@@ -18,8 +18,8 @@ This `LMSS.owl` file will be updated regularly.
     - SALI will strive to retain deprecated IRIs -- placing them in a folder labeled `DEPRECATED NODES`. 
 
 After a Release, nearly all of the IRIs will remain operative for decades (or forever). Future changes (if any) are likely to be only with properties:
-- E.g., Labels (i.e., `rdfs:label`)
-- E.g., Synonyms (i.e., `skos:altLabel`) - such as translations to other languages
+- E.g., Labels (i.e., `rdfs:label`) 
+- E.g., Synonyms (i.e., `skos:altLabel` and `skos:prefLabel`) - such as alternative names, or translations to other languages
 - E.g., Definitions (e.g., `skos:definition`) 
 - E.g., Sources (e.g., `rdfs:isDefinedBy`)
 - E.g., Edges/relationships (e.g., `rdfs:seeAlso`, `sali:governedBy`)
