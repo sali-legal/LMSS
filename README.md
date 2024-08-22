@@ -1,7 +1,7 @@
 # LMSS
 SALI LMSS: Legal Matter Standard Specification
 
-The file `LMSS.owl` is an XML file that represents SALI's primary taxonomy/ontology, providing over 17,000 tags.
+The file `LMSS.owl` is an XML file that represents SALI's primary taxonomy/ontology, providing over 18,000 tags.
 
 ## IRI = Unique Identifier
 Each SALI LMSS tag has its own unique identifier (IRI). 
