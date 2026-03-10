@@ -12,9 +12,8 @@ The identifiers in this `LMSS.owl` file are used in the SALI API standard, where
     - make API responses (i.e., provide API payloads)
 ...all in using SALI Standardized identifiers (IRIs)
 
-### SALI SwaggerHub
-See SwaggerHub for the SALI API:
-https://app.swaggerhub.com/apis/SALI-LMSS-V1/LMSS-API/1.0.0#/
+### SALI API 
+See https://github.com/sali-legal/api/blob/main/SALI_API.yml
 
 ## STABILITY AND VERSIONING
 This `LMSS.owl` file will be updated regularly. 
